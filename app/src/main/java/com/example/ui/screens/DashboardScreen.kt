@@ -696,14 +696,14 @@ fun DashboardScreen(
                             Spacer(modifier = Modifier.width(10.dp))
                             Column {
                                 Text(
-                                    text = "SECRET ACCESS CODE",
+                                    text = "YT",
                                     fontSize = 12.sp,
                                     fontWeight = FontWeight.Bold,
                                     color = TealAccent,
                                     letterSpacing = 1.sp
                                 )
                                 Text(
-                                    text = "Code set here will unlock the incognito browser inside Calculator",
+                                    text = "yt",
                                     fontSize = 11.sp,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant
                                 )
@@ -719,7 +719,7 @@ fun DashboardScreen(
                         ) {
                             Icon(
                                 imageVector = Icons.Default.Calculate,
-                                contentDescription = "Open Calculator",
+                                contentDescription = "Open YT",
                                 tint = Color.White,
                                 modifier = Modifier.size(18.dp)
                             )
@@ -760,14 +760,6 @@ fun DashboardScreen(
                             )
                         )
 
-                        Button(
-                            onClick = { onNavigate("calculator") },
-                            shape = RoundedCornerShape(12.dp),
-                            colors = ButtonDefaults.buttonColors(containerColor = TealAccent),
-                            modifier = Modifier.testTag("btn_test_in_calculator")
-                        ) {
-                            Text("Test", fontWeight = FontWeight.Bold, color = Color.Black)
-                        }
                     }
                 }
             }
